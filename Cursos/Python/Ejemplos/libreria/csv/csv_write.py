@@ -30,14 +30,14 @@ if __name__ == "__main__":
                 "ALAOUI SOSSAI, MAHDI;050275;8.0;0.0;8.0".split(";"),
                 "ALEJANDRE SANCHEZ, CARLOS;100202;np;np;np".split(";")
                 ]
-	"""
-	data (lista de listas):
-	[
-		["nombre", "matricula", "nota1", "nota2", "nota3"],
-		["AGUADO PEÑA, JUAN", "100200", 5.0, 1.5, 6.5],
-	...
-	]
-	"""
+    """
+    data (lista de listas):
+    [
+        ["nombre", "matricula", "nota1", "nota2", "nota3"],
+        ["AGUADO PEÑA, JUAN", "100200", 5.0, 1.5, 6.5],
+    ...
+    ]
+    """
     command = sys.argv[1]
     if command == "norm":
         csv_writer(data, "csv_writed.csv")
@@ -53,9 +53,9 @@ if __name__ == "__main__":
         {"nombre": "AGUADO PEÑA, JUAN", "matricula": "100200",  "nota1": 5.0,  "nota2": 1.5, "nota3": 6.5}
         Al final queda una lista de diccionarios:
         [
-        	{"nombre": "AGUADO PEÑA, JUAN", "matricula": "100200",  "nota1": 5.0,  "nota2": 1.5, "nota3": 6.5}
-        	{"nombre": "AGUDO BALLESTEROS, MIGUEL", "matricula": "110022",  "nota1": 0,  "nota2": 2.0, "nota3": 2.0}
-        	...
+            {"nombre": "AGUADO PEÑA, JUAN", "matricula": "100200",  "nota1": 5.0,  "nota2": 1.5, "nota3": 6.5}
+            {"nombre": "AGUDO BALLESTEROS, MIGUEL", "matricula": "110022",  "nota1": 0,  "nota2": 2.0, "nota3": 2.0}
+            ...
         ]
         """
         csv_dict_writer(my_data, fields, "csv_writed.csv")

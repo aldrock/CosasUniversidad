@@ -1,0 +1,5 @@
+virtualenv flask
+flask/bin/pip install flask
+flask/bin/pip install flask-httpauth
+
+tx to: http://pili.la/aaaah
