@@ -1,6 +1,6 @@
 #String
 a = "Hola!"
-eval(input("\nSe va a imprimir a (a=\"Hola!\") y su tipo.. "))
+input("\nSe va a imprimir a (a=\"Hola!\") y su tipo.. ")
 print(a)
 print((type(a)))
 
